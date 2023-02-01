@@ -382,6 +382,7 @@ textarea.input {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   position: relative;
+  border-radius: 1.25rem;
 }
 
 .form-subscribe__row svg {
@@ -748,6 +749,7 @@ textarea.input {
 }
 
 .media-main-block__image-ibg {
+  border-radius: 1.25rem 1.25rem 0 0;
   display: block;
   padding-bottom: 78.63%;
   overflow: hidden;
@@ -903,6 +905,7 @@ textarea.input {
 }
 
 .block-gallery__main-image-ibg img {
+  border-radius: 1.25rem;
   will-change: transform;
   -webkit-transition: -webkit-transform 0.6s ease 0s;
   transition: -webkit-transform 0.6s ease 0s;
@@ -917,6 +920,7 @@ textarea.input {
 }
 
 .block-gallery__small-image-ibg img {
+  border-radius: 1.25rem;
   will-change: transform;
   -webkit-transition: -webkit-transform 0.6s ease 0s;
   transition: -webkit-transform 0.6s ease 0s;
@@ -1127,9 +1131,11 @@ textarea.input {
   display: block;
   padding-bottom: 100%;
   overflow: hidden;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .item-category__image-ibg img {
+  border-radius: 1.25rem 1.25rem 0 0;
   -webkit-transition: -webkit-transform 0.6s ease 0s;
   transition: -webkit-transform 0.6s ease 0s;
   -o-transition: transform 0.6s ease 0s;
@@ -1152,6 +1158,7 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 1.25rem 1.25rem 0 0;
   background: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(7.5px);
           backdrop-filter: blur(7.5px);
@@ -1242,6 +1249,7 @@ textarea.input {
 }
 
 .card-discover__image-ibg img {
+  border-radius: 1.25rem 1.25rem 0 0;
   -webkit-transition: -webkit-transform 0.6s ease 0s;
   transition: -webkit-transform 0.6s ease 0s;
   -o-transition: transform 0.6s ease 0s;
@@ -2425,21 +2433,39 @@ textarea.input {
   margin-bottom: 1.875rem;
 }
 
+.marketplace__search {
+  border-radius: 1.25rem;
+}
+
 .marketplace__row {
+  border-radius: 1.25rem;
   position: relative;
 }
 
-.marketplace__row svg {
+.marketplace__button-search {
+  position: absolute;
   width: 1.5rem;
   height: 1.5rem;
-  fill: #858584;
-  position: absolute;
   top: 50%;
   right: 1.25rem;
   -webkit-transform: translate(0px, -50%);
       -ms-transform: translate(0px, -50%);
           transform: translate(0px, -50%);
-  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketplace__button-search svg {
+  width: 100%;
+  height: 100%;
+  fill: #858584;
 }
 
 .marketplace__input {
