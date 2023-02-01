@@ -408,7 +408,8 @@ textarea.input {
 }
 
 .form-subscribe__input._form-focus {
-  outline: 0.0625rem solid #a259ff;
+  outline: none;
+  border: 0.0625rem solid #a259ff;
 }
 
 .create-account .form-subscribe__input {
@@ -756,6 +757,7 @@ textarea.input {
 }
 
 .media-main-block__image-ibg img {
+  border-radius: 1.25rem 1.25rem 0 0;
   will-change: transform;
   -webkit-transition: -webkit-transform 0.8s ease 0s;
   transition: -webkit-transform 0.8s ease 0s;
@@ -2480,7 +2482,8 @@ textarea.input {
 }
 
 .marketplace__input._form-focus {
-  outline: 0.0625rem solid #a259ff;
+  outline: none;
+  border: 0.0625rem solid #a259ff;
 }
 
 .search-cards__items {
