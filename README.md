@@ -15,7 +15,7 @@ With a focus on reliability, all blocks are optimized for responsiveness, stabil
 
 * HTML5, CSS3: Modern web technologies are utilized to create a clean and semantic structure with appealing styling.
 * JavaScript: JavaScript enhances interactivity and enables the functionality of counters, animations, and sliders throughout the site.
-* Sliders: JavaScript libraries (Swiper.js) provide an interactive and visually appealing experience.
+* Sliders: JavaScript library (Swiper.js) provide an interactive and visually appealing experience.
 
 **You can see the work on the link below.**
 https://heka9.github.io/NFT-marketplace
